@@ -1,5 +1,5 @@
 <script>
-  import Accordion from "../src/index.js";
+  import Accordion from "../src/accordion.js";
   let activeTitle = "Header One";
   const handleAccordionChange = event => {
     activeTitle = event.detail;
