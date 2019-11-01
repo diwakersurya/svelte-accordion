@@ -1,0 +1,11 @@
+sudo: false
+language: node_js
+node_js: v11.12.0
+branches:
+    only:
+        - master
+        - /^greenkeeper/.*$/
+notifications:
+    email: false
+after_success:
+    - npm run semantic-release
