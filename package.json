@@ -1,67 +1,67 @@
 {
-    "name": "svelte-accordion",
-    "description": "A Svelte Accordion Component",
-    "homepage": "https://github.com/diwakersurya/svelte-accordion#readme",
-    "version": "0.0.0-development",
-    "license": "MIT",
-    "svelte": "src/accordion.js",
-    "module": "index.mjs",
-    "main": "index.js",
-    "author": "Diwaker Singh",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/diwakersurya/svelte-accordion.git"
-    },
-    "scripts": {
-        "build": "rollup -c",
-        "prepublishOnly": "npm run build",
-        "storybook": "start-storybook -p 6006",
-        "build-storybook": "build-storybook",
-        "semantic-release": "semantic-release"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.6.4",
-        "@storybook/addon-actions": "^5.2.5",
-        "@storybook/addon-links": "^5.2.5",
-        "@storybook/addons": "^5.2.5",
-        "@storybook/svelte": "^5.2.5",
-        "babel-loader": "^8.0.6",
-        "commitizen": "^4.0.3",
-        "cz-conventional-changelog": "^3.0.2",
-        "husky": "^3.0.9",
-        "rollup": "^1.11.0",
-        "rollup-plugin-node-resolve": "^4.0.0",
-        "rollup-plugin-svelte": "^5.0.0",
-        "semantic-release": "^15.13.28",
-        "svelte": "^3.12.1",
-        "svelte-loader": "^2.13.6"
-    },
-    "keywords": [
-        "svelte",
-        "accordion",
-        "svelte-accordion",
-        "svelte-component",
-        "svelte-accordion-component",
-        "SvelteAccordion",
-        "SvelteAccordionComponent"
-    ],
-    "files": [
-        "src",
-        "index.mjs",
-        "index.js"
-    ],
-    "dependencies": {},
-    "bugs": {
-        "url": "https://github.com/diwakersurya/svelte-accordion/issues"
-    },
-    "config": {
-        "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog"
-        }
-    },
-    "husky": {
-        "hooks": {
-            "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
-        }
+  "name": "svelte-accordion",
+  "description": "A Svelte Accordion Component",
+  "homepage": "https://github.com/diwakersurya/svelte-accordion#readme",
+  "version": "0.0.0-development",
+  "license": "MIT",
+  "svelte": "src/accordion.js",
+  "module": "index.mjs",
+  "main": "index.js",
+  "author": "Diwaker Singh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diwakersurya/svelte-accordion.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@storybook/addon-actions": "^5.2.5",
+    "@storybook/addon-links": "^5.2.5",
+    "@storybook/addons": "^5.2.5",
+    "@storybook/svelte": "^5.2.5",
+    "babel-loader": "^8.0.6",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "husky": "^3.0.9",
+    "rollup": "^1.11.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-svelte": "^5.0.0",
+    "semantic-release": "^15.13.28",
+    "svelte": "^3.12.1",
+    "svelte-loader": "^2.13.6"
+  },
+  "keywords": [
+    "svelte",
+    "accordion",
+    "svelte-accordion",
+    "svelte-component",
+    "svelte-accordion-component",
+    "SvelteAccordion",
+    "SvelteAccordionComponent"
+  ],
+  "files": [
+    "src",
+    "index.mjs",
+    "index.js"
+  ],
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/diwakersurya/svelte-accordion/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  }
 }
