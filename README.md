@@ -5,3 +5,5 @@
 [![Build Status](https://travis-ci.org/diwakersurya/svelte-accordion.svg?branch=master)](https://travis-ci.org/diwakersurya/svelte-accordion)
 
 A Svelte component to show accordion.
+
+see live code here(https://svelte.dev/repl/1d0089bdd7d24d77ac69cf533b8d5976?version=3.12.1)
